@@ -35,7 +35,7 @@ def main():
         outgoing_value = window.pop(0)
         new_value = body_decoded['rand']
 
-        #calculate max
+        # Calculate max
         get_max_mich(new_value, outgoing_value)
 
         # Encode in JSON
