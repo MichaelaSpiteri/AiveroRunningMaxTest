@@ -74,6 +74,11 @@ docker-compose logs -f # Check if the rabbitmq broker is up and the other servic
 # run your own solution - you'll know better what to do here (hopefully)
 ```
 
+
+#Running the solution (Max Compute)
+In the root of this directory run `python receiver/RunningMaxComputer.py`
+
+
 It is a good idea to stop the `docker-compose` when you have tested your script, as it will restart the containers on every boot of your machine.
 Unless you specify a `NUMBER_OF_MESSAGES` environment variable in the docker-compose it will produce messages for ever.
 
@@ -112,3 +117,4 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
