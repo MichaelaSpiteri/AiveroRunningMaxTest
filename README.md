@@ -75,7 +75,7 @@ docker-compose logs -f # Check if the rabbitmq broker is up and the other servic
 ```
 
 
-#Running the solution (Max Compute)
+## Running the solution (running maximum of random stream of numbers)
 In the root of this directory run `python receiver/RunningMaxComputer.py`
 
 
